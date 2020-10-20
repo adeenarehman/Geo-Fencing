@@ -1,337 +1,491 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-MERGED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bd2cab46fd45b530a274001375333ead\flipper-network-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dd7dfafbb0af41b4347f18654ea5c436\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-community_geolocation] E:\REACT NATIVE\Geofencing\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6ec5dcaca88724d5df4d57b21fbc6a5c\jetified-react-native-0.63.3\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6dd6245206e34676e1ee3aa6ee0f68c9\android-jsc-r245459\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40741ffe3de6a11d99116b4e82d60d46\flipper-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03aa51752e7d7098a02114b07907dabd\stetho-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f56679cbe795a6f7c93e9a035f66f2\fresco-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\559ddc4b7f576fedc63e05921b88e895\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0288f1bca211d259126211029f92054c\drawee-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\766471e6648d662c31b10c1bbc5126fe\nativeimagefilters-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\57a87fccccbdbe36e69f72b01ce521f1\memory-type-native-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0abe31decb23fc939dbab3bf21d1ccec\memory-type-java-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b508a8e13388bdc4e88ee330cec4cdc\imagepipeline-native-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\104429b66e46c675401dada578683150\memory-type-ashmem-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fe90bfac000734a7d0d9c150b7915ff6\imagepipeline-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\34efa7b8fb78d46cf2b753de7fbfc5a5\nativeimagetranscoder-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\237bbc58c0787eee6b78f947e2baeeaa\imagepipeline-base-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\65f592cbf7e10992754db73be6c6ba25\soloader-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1cb9b9ea592aa2ea85233be252327dcf\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b1b165607eae60d70e4267b97e24514b\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\28888a6f6660db47b3788df392c672a7\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\efb592adf2592d134c27edc4a56e19d2\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cfe184b2b3fc6f019a80d581fc6f7447\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a5841d1417e823e700e7ed3e71829aa8\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7aa1097eb47596f6fc594d09cb57b709\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c934b79c937aa60e75835d011c2154af\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c99af001058cd5265376dded8456f828\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40f1c5d439eea30faeaafe93e7bdf45f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\faa15558a5d57e35e462c9e1f0248694\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb2387ed8645a8641b6e8f462a3058a0\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6bd464ed06f075f4e42b3fde6a89e60a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e0a79d4379c4eef3803202a497c19313\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b41f2ef3d4a30256bbd9d1017371108\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2786c84c1e653e40bd67508414ca298f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7268e652b9483dcb77c195ad2a8fa532\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\566e741fe30adc1beecccfb70fe55958\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4ce17f8b4390b23da9bedc3cee010ec1\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4da6ddd3c71dbaec92b0fdf3bbca4ce7\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7795d60208f5dec52ee32d30407c8252\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9c44c714e7f61700ba86ba0b726bac90\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6915539271871d8dbdf62e51a3e1c71e\jetified-fbcore-2.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c114d4501470930b3986c4f9bd2da0fd\ui-common-2.2.0\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/d8031ba7ad89eac391d4216992656ff2/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-background-fetch] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-background-geolocation] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/ali/.gradle/caches/transforms-2/files-2.1/b2fb68a89dcf45cde83e8c390943d9a4/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/ali/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c934b79c937aa60e75835d011c2154af/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cb2387ed8645a8641b6e8f462a3058a0/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7268e652b9483dcb77c195ad2a8fa532/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/566e741fe30adc1beecccfb70fe55958/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7795d60208f5dec52ee32d30407c8252/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/9c44c714e7f61700ba86ba0b726bac90/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:2:1-31:12
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:1:39-40:12
+MERGED from [com.github.tony19:logback-android:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a0dece25e97ba94ab9e039113b70bca2/logback-android-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:2:1-18:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3c1ee6b5fb23376970c1b3f7495198f1/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:2:3-27
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:2:3-27
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:2:3-35
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:2:3-35
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:1-31:12
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:4:5-67
-MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:15:5-67
-MERGED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:10:5-66
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:4:22-64
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:5:5-79
-	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:7:5-29:19
-MERGED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:7:5-29:19
-MERGED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:7:5-29:19
-MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6ec5dcaca88724d5df4d57b21fbc6a5c\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6ec5dcaca88724d5df4d57b21fbc6a5c\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cfe184b2b3fc6f019a80d581fc6f7447\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cfe184b2b3fc6f019a80d581fc6f7447\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a5841d1417e823e700e7ed3e71829aa8\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a5841d1417e823e700e7ed3e71829aa8\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7aa1097eb47596f6fc594d09cb57b709\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7aa1097eb47596f6fc594d09cb57b709\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2786c84c1e653e40bd67508414ca298f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2786c84c1e653e40bd67508414ca298f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-background-fetch] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-background-fetch] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-background-geolocation] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-53
+MERGED from [:react-native-background-geolocation] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-53
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/ali/.gradle/caches/transforms-2/files-2.1/b2fb68a89dcf45cde83e8c390943d9a4/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/ali/.gradle/caches/transforms-2/files-2.1/b2fb68a89dcf45cde83e8c390943d9a4/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:15:5-29:19
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:15:5-29:19
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:19:5-39:19
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:19:5-39:19
+MERGED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:11:5-16:19
+MERGED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:11:5-16:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:9:7-39
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:7:75-114
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:11:7-52
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:11:7-52
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:7:54-74
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:10:7-41
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:12:7-34
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:12:7-34
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:13:7-38
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:13:7-38
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:7:18-53
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:8:7-38
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:8:7-38
-activity#com.geofencing.MainActivity
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:14:7-24:18
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.tanveergeolocation.MainActivity
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:13:7-23:18
 	android:label
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:launchMode
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:19:9-51
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:17:9-86
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:16:9-86
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:15:9-37
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:20:9-23:25
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:21:13-65
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:21:21-62
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:22:13-73
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:22:23-70
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:21:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:25:7-84
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:24:7-84
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:25:17-81
-meta-data#com.google.android.geo.API_KEY
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:26:7-28:70
-	android:value
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:28:13-68
-	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml:27:13-58
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml:24:17-81
 uses-sdk
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bd2cab46fd45b530a274001375333ead\flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bd2cab46fd45b530a274001375333ead\flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dd7dfafbb0af41b4347f18654ea5c436\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dd7dfafbb0af41b4347f18654ea5c436\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-community_geolocation] E:\REACT NATIVE\Geofencing\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_geolocation] E:\REACT NATIVE\Geofencing\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6ec5dcaca88724d5df4d57b21fbc6a5c\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6ec5dcaca88724d5df4d57b21fbc6a5c\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6dd6245206e34676e1ee3aa6ee0f68c9\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6dd6245206e34676e1ee3aa6ee0f68c9\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40741ffe3de6a11d99116b4e82d60d46\flipper-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40741ffe3de6a11d99116b4e82d60d46\flipper-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03aa51752e7d7098a02114b07907dabd\stetho-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03aa51752e7d7098a02114b07907dabd\stetho-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f56679cbe795a6f7c93e9a035f66f2\fresco-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f56679cbe795a6f7c93e9a035f66f2\fresco-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\559ddc4b7f576fedc63e05921b88e895\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\559ddc4b7f576fedc63e05921b88e895\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0288f1bca211d259126211029f92054c\drawee-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0288f1bca211d259126211029f92054c\drawee-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\766471e6648d662c31b10c1bbc5126fe\nativeimagefilters-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\766471e6648d662c31b10c1bbc5126fe\nativeimagefilters-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\57a87fccccbdbe36e69f72b01ce521f1\memory-type-native-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\57a87fccccbdbe36e69f72b01ce521f1\memory-type-native-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0abe31decb23fc939dbab3bf21d1ccec\memory-type-java-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0abe31decb23fc939dbab3bf21d1ccec\memory-type-java-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b508a8e13388bdc4e88ee330cec4cdc\imagepipeline-native-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b508a8e13388bdc4e88ee330cec4cdc\imagepipeline-native-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\104429b66e46c675401dada578683150\memory-type-ashmem-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\104429b66e46c675401dada578683150\memory-type-ashmem-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fe90bfac000734a7d0d9c150b7915ff6\imagepipeline-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fe90bfac000734a7d0d9c150b7915ff6\imagepipeline-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\34efa7b8fb78d46cf2b753de7fbfc5a5\nativeimagetranscoder-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\34efa7b8fb78d46cf2b753de7fbfc5a5\nativeimagetranscoder-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\237bbc58c0787eee6b78f947e2baeeaa\imagepipeline-base-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\237bbc58c0787eee6b78f947e2baeeaa\imagepipeline-base-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\65f592cbf7e10992754db73be6c6ba25\soloader-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\65f592cbf7e10992754db73be6c6ba25\soloader-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1cb9b9ea592aa2ea85233be252327dcf\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1cb9b9ea592aa2ea85233be252327dcf\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b1b165607eae60d70e4267b97e24514b\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b1b165607eae60d70e4267b97e24514b\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\28888a6f6660db47b3788df392c672a7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\28888a6f6660db47b3788df392c672a7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\efb592adf2592d134c27edc4a56e19d2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\efb592adf2592d134c27edc4a56e19d2\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cfe184b2b3fc6f019a80d581fc6f7447\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cfe184b2b3fc6f019a80d581fc6f7447\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a5841d1417e823e700e7ed3e71829aa8\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a5841d1417e823e700e7ed3e71829aa8\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7aa1097eb47596f6fc594d09cb57b709\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7aa1097eb47596f6fc594d09cb57b709\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c934b79c937aa60e75835d011c2154af\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c934b79c937aa60e75835d011c2154af\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c99af001058cd5265376dded8456f828\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c99af001058cd5265376dded8456f828\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40f1c5d439eea30faeaafe93e7bdf45f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40f1c5d439eea30faeaafe93e7bdf45f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\faa15558a5d57e35e462c9e1f0248694\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\faa15558a5d57e35e462c9e1f0248694\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb2387ed8645a8641b6e8f462a3058a0\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb2387ed8645a8641b6e8f462a3058a0\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6bd464ed06f075f4e42b3fde6a89e60a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6bd464ed06f075f4e42b3fde6a89e60a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e0a79d4379c4eef3803202a497c19313\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e0a79d4379c4eef3803202a497c19313\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b41f2ef3d4a30256bbd9d1017371108\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3b41f2ef3d4a30256bbd9d1017371108\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2786c84c1e653e40bd67508414ca298f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\2786c84c1e653e40bd67508414ca298f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7268e652b9483dcb77c195ad2a8fa532\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7268e652b9483dcb77c195ad2a8fa532\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\566e741fe30adc1beecccfb70fe55958\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\566e741fe30adc1beecccfb70fe55958\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4ce17f8b4390b23da9bedc3cee010ec1\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4ce17f8b4390b23da9bedc3cee010ec1\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4da6ddd3c71dbaec92b0fdf3bbca4ce7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4da6ddd3c71dbaec92b0fdf3bbca4ce7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7795d60208f5dec52ee32d30407c8252\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7795d60208f5dec52ee32d30407c8252\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9c44c714e7f61700ba86ba0b726bac90\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9c44c714e7f61700ba86ba0b726bac90\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
-MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6915539271871d8dbdf62e51a3e1c71e\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6915539271871d8dbdf62e51a3e1c71e\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c114d4501470930b3986c4f9bd2da0fd\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c114d4501470930b3986c4f9bd2da0fd\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
-INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/d8031ba7ad89eac391d4216992656ff2/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/d8031ba7ad89eac391d4216992656ff2/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-background-fetch] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-fetch] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-geolocation] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-geolocation] /Users/ali/Documents/tanveergeolocation/node_modules/react-native-background-geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/ali/.gradle/caches/transforms-2/files-2.1/b2fb68a89dcf45cde83e8c390943d9a4/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/ali/.gradle/caches/transforms-2/files-2.1/b2fb68a89dcf45cde83e8c390943d9a4/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/ali/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/ali/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3d5c1e204ac62dc0f6d5059f5e3eaa42/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cfe184b2b3fc6f019a80d581fc6f7447/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7aa1097eb47596f6fc594d09cb57b709/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c934b79c937aa60e75835d011c2154af/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c934b79c937aa60e75835d011c2154af/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cb2387ed8645a8641b6e8f462a3058a0/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/cb2387ed8645a8641b6e8f462a3058a0/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7268e652b9483dcb77c195ad2a8fa532/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7268e652b9483dcb77c195ad2a8fa532/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/566e741fe30adc1beecccfb70fe55958/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/566e741fe30adc1beecccfb70fe55958/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7795d60208f5dec52ee32d30407c8252/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/7795d60208f5dec52ee32d30407c8252/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/9c44c714e7f61700ba86ba0b726bac90/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/9c44c714e7f61700ba86ba0b726bac90/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:2:5-73
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:2:5-73
+MERGED from [com.github.tony19:logback-android:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a0dece25e97ba94ab9e039113b70bca2/logback-android-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:2.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/a0dece25e97ba94ab9e039113b70bca2/logback-android-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3c1ee6b5fb23376970c1b3f7495198f1/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/3c1ee6b5fb23376970c1b3f7495198f1/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from E:\REACT NATIVE\Geofencing\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from /Users/ali/Documents/tanveergeolocation/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.54.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from [:react-native-maps] E:\REACT NATIVE\Geofencing\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\61c3f9cd913ff5b820ac6161e94658f5\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e4839a2ddbb5dd297dc15776f993ac50\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ali/.gradle/caches/transforms-2/files-2.1/8d67cee4148ceb36838d5fd1459866d2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:11:5-81
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:13:5-80
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:12:5-68
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:3:5-67
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:13:5-68
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:14:5-67
+MERGED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:13:22-65
+receiver#com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:9-92
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:19-89
+service#com.transistorsoft.tsbackgroundfetch.FetchJobService
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:18:9-21:72
+	android:exported
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:20:13-36
+	android:permission
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:19:13-80
+receiver#com.transistorsoft.tsbackgroundfetch.BootReceiver
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:9-28:20
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:19-83
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:17-79
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:25:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:17-84
+	android:name
+		ADDED from [com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/ali/.gradle/caches/transforms-2/files-2.1/e0e9da1b73080c15e2eb0bcd8b2c0064/tsbackgroundfetch-0.4.5/AndroidManifest.xml:26:25-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:5:5-84
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:5:22-82
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:9:5-88
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:9:22-86
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:11:22-74
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:12:5-93
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:12:22-91
+uses-permission#oppo.permission.OPPO_COMPONENT_SAFE
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:16:22-72
+uses-permission#com.huawei.permission.external_app_settings.USE_COMPONENT
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:17:5-96
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:17:22-94
+uses-feature#android.hardware.location.gps
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:18:5-90
+	android:required
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:18:64-88
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:18:19-63
+activity#com.transistorsoft.locationmanager.activity.TSLocationManagerActivity
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:20:9-224
+	android:excludeFromRecents
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:20:104-137
+	android:launchMode
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:20:138-173
+	android:theme
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:20:174-222
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:20:19-103
+service#com.transistorsoft.locationmanager.service.TrackingService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:21:9-93
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:21:18-91
+service#com.transistorsoft.locationmanager.service.LocationRequestService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:22:9-100
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:22:18-98
+service#com.transistorsoft.locationmanager.service.HeartbeatService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:23:9-94
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:23:18-92
+service#com.transistorsoft.locationmanager.service.ActivityRecognitionService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:24:9-104
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:24:18-102
+service#com.transistorsoft.locationmanager.service.GeofencingService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:25:9-95
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:25:18-93
+service#com.transistorsoft.locationmanager.service.BackgroundTaskService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:26:9-99
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:26:18-97
+receiver#com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:27:9-127
+	android:exported
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:27:101-125
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:27:19-100
+service#com.transistorsoft.locationmanager.scheduler.ScheduleService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:28:9-95
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:28:18-93
+service#com.transistorsoft.locationmanager.scheduler.ScheduleJobService
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:29:9-155
+	android:permission
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:29:97-153
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:29:18-96
+receiver#com.transistorsoft.locationmanager.BootReceiver
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:30:82-106
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:30:19-81
+provider#com.transistorsoft.locationmanager.util.LogFileProvider
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:36:9-38:20
+	android:grantUriPermissions
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:36:185-219
+	android:authorities
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:36:90-159
+	android:exported
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:36:160-184
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:36:19-89
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:37:13-137
+	android:resource
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:37:75-135
+	android:name
+		ADDED from [com.transistorsoft:tslocationmanager:3.1.17] /Users/ali/.gradle/caches/transforms-2/files-2.1/4a81bacfffe233dedc2eb5d0e541eb1b/tslocationmanager-3.1.17/AndroidManifest.xml:37:24-74
+activity#com.intentfilter.androidpermissions.PermissionsActivity
+ADDED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:12:9-15:59
+	android:excludeFromRecents
+		ADDED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:14:13-46
+	android:theme
+		ADDED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from [com.intentfilter:android-permissions:0.1.8] /Users/ali/.gradle/caches/transforms-2/files-2.1/8dee1d133f09ddc85c408a4a0a55c86d/jetified-android-permissions-0.1.8/AndroidManifest.xml:13:13-83

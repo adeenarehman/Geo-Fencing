@@ -241,7 +241,6 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="amu_text" type="id"/>
     <item name="flipper_skip_empty_view_group_traversal" type="id"/>
     <item name="flipper_skip_view_traversal" type="id"/>
     <item name="home" type="id"/>
@@ -301,8 +300,12 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="alert_description" translatable="false">Alert</string>
-    <string name="app_name">Geofencing</string>
+    <string name="app_name">tanveergeolocation</string>
+    <string name="background_permission_rationale_allow_always">Change to Allow all the time</string>
+    <string name="background_permission_rationale_message">In order to track your activity in the background, please enable "Allow all the time" location permission</string>
+    <string name="background_permission_rationale_title">Allow access to this device\'s location in the background?</string>
     <string name="button_description" translatable="false">Button</string>
+    <string name="cancel">Cancel</string>
     <string name="catalyst_change_bundle_location" project="catalyst" translatable="false">Change Bundle Location</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy\n</string>
     <string name="catalyst_debug" project="catalyst" translatable="false">Debug</string>
@@ -350,6 +353,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="file_provider_authority" translatable="false">com.transistorsoft.tslocationmanager.fileprovider</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="image_description" translatable="false">Image</string>
     <string name="imagebutton_description" translatable="false">Button, Image</string>
@@ -357,6 +361,8 @@
     <string name="menu_description" translatable="false">Menu</string>
     <string name="menubar_description" translatable="false">Menu Bar</string>
     <string name="menuitem_description" translatable="false">Menu Item</string>
+    <string name="message_permission_required">App needs permission for some features to work properly</string>
+    <string name="notification_channel_name">Permissions</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
@@ -374,6 +380,7 @@
     <string name="summary_description" translatable="false">Summary</string>
     <string name="tablist_description" translatable="false">Tab List</string>
     <string name="timer_description" translatable="false">Timer</string>
+    <string name="title_permission_required">Permission required</string>
     <string name="toolbar_description" translatable="false">Tool Bar</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -391,6 +398,14 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:textColor">#000000</item>
+    </style>
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1481,6 +1496,11 @@
     <item name="android:windowEnterAnimation">@anim/catalyst_slide_up</item>
     <item name="android:windowExitAnimation">@anim/catalyst_slide_down</item>
   </style>
+    <style name="PermissionRationaleDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/tslocationmanager_permission_rationale_background</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -1707,6 +1727,9 @@
     </style>
     <style name="SpinnerTimePickerStyle" ns2:targetApi="lollipop" parent="android:Widget.Material.Light.TimePicker">
       <item name="android:timePickerMode">spinner</item>
+    </style>
+    <style name="TSLocationManagerActivity" parent="AppTheme.Transparent">
+        <item name="android:windowAnimationStyle">@null</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -1959,18 +1982,6 @@
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
     <style name="Widget.Compat.NotificationActionContainer" parent=""/>
     <style name="Widget.Compat.NotificationActionText" parent=""/>
-    <style name="amu_Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#ff7f7f7f</item>
-    </style>
-    <style name="amu_Bubble.TextAppearance.Light" parent="amu_Bubble.TextAppearance.Dark">
-        <item name="android:textColor">#ffeeeeee</item>
-    </style>
-    <style name="amu_ClusterIcon.TextAppearance" parent="android:TextAppearance">
-        <item name="android:textColor">#ffeeeeee</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
     <style name="redboxButton">
     <item name="android:layout_width">0dp</item>
     <item name="android:layout_height">wrap_content</item>
@@ -3067,65 +3078,6 @@
 <attr format="float" name="imageAspectRatio"/>
 
 <attr format="boolean" name="circleCrop"/>
-</declare-styleable>
-    <declare-styleable name="MapAttrs"><attr name="mapType">
-<enum name="none" value="0"/>
-
-<enum name="normal" value="1"/>
-
-<enum name="satellite" value="2"/>
-
-<enum name="terrain" value="3"/>
-
-<enum name="hybrid" value="4"/>
-
-</attr>
-
-<attr format="float" name="cameraBearing"/>
-
-<attr format="float" name="cameraTargetLat"/>
-
-<attr format="float" name="cameraTargetLng"/>
-
-<attr format="float" name="cameraTilt"/>
-
-<attr format="float" name="cameraZoom"/>
-
-<attr format="boolean" name="liteMode"/>
-
-<attr format="boolean" name="uiCompass"/>
-
-<attr format="boolean" name="uiRotateGestures"/>
-
-<attr format="boolean" name="uiScrollGestures"/>
-
-<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
-
-<attr format="boolean" name="uiTiltGestures"/>
-
-<attr format="boolean" name="uiZoomControls"/>
-
-<attr format="boolean" name="uiZoomGestures"/>
-
-<attr format="boolean" name="useViewLifecycle"/>
-
-<attr format="boolean" name="zOrderOnTop"/>
-
-<attr format="boolean" name="uiMapToolbar"/>
-
-<attr format="boolean" name="ambientEnabled"/>
-
-<attr format="float" name="cameraMinZoomPreference"/>
-
-<attr format="float" name="cameraMaxZoomPreference"/>
-
-<attr format="float" name="latLngBoundsSouthWestLatitude"/>
-
-<attr format="float" name="latLngBoundsSouthWestLongitude"/>
-
-<attr format="float" name="latLngBoundsNorthEastLatitude"/>
-
-<attr format="float" name="latLngBoundsNorthEastLongitude"/>
 </declare-styleable>
     <declare-styleable name="MenuGroup">
 

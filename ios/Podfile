@@ -3,13 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Geofencing' do
+target 'tanveergeolocation' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-
-  target 'GeofencingTests' do
+  target 'tanveergeolocationTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -24,10 +23,10 @@ target 'Geofencing' do
   end
 end
 
-target 'Geofencing-tvOS' do
-  # Pods for Geofencing-tvOS
+target 'tanveergeolocation-tvOS' do
+  # Pods for tanveergeolocation-tvOS
 
-  target 'Geofencing-tvOSTests' do
+  target 'tanveergeolocation-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
