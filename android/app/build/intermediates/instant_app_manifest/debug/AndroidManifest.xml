@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.geofencing"
+    package="com.tanveergeolocation"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="28" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- device-specific permissions for DeviceSettings methods -->
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
 
     <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+        android:name="android.hardware.location.gps"
+        android:required="false" />
 
     <application
-        android:name="com.geofencing.MainApplication"
+        android:name="com.tanveergeolocation.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -31,7 +41,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.geofencing.MainActivity"
+            android:name="com.tanveergeolocation.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -43,14 +53,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAGKFNn0Gk9EFj35JTLG5G77RQ3XHD8hH8" /> <!-- Needs to be explicitly declared on P+ -->
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -59,6 +61,66 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+
+        <service
+            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/TSLocationManagerActivity" />
+
+        <service android:name="com.transistorsoft.locationmanager.service.TrackingService" />
+        <service android:name="com.transistorsoft.locationmanager.service.LocationRequestService" />
+        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+
+        <receiver
+            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
+            android:exported="false" />
+
+        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+        <service
+            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.transistorsoft.locationmanager.BootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+            android:authorities="com.tanveergeolocation.tslocationmanager.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/tslocationmanager_file_provider_path" />
+        </provider>
+
+        <activity
+            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.Transparent" />
     </application>
 
 </manifest>

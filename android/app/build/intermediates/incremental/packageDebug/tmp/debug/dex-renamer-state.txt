@@ -1,4 +1,7 @@
-#Mon Oct 12 02:30:49 PKT 2020
-base.0=E\:\\REACT NATIVE\\Geofencing\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Tue Oct 20 04:31:04 PDT 2020
+base.0=/Users/ali/Documents/tanveergeolocation/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/ali/Documents/tanveergeolocation/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex

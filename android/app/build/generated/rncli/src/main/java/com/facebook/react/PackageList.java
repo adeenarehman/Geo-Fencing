@@ -11,10 +11,10 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-// @react-native-community/geolocation
-import com.reactnativecommunity.geolocation.GeolocationPackage;
-// react-native-maps
-import com.airbnb.android.react.maps.MapsPackage;
+// react-native-background-fetch
+import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
+// react-native-background-geolocation
+import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
 
 public class PackageList {
   private Application application;
@@ -60,8 +60,8 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
-      new GeolocationPackage(),
-      new MapsPackage()
+      new RNBackgroundFetchPackage(),
+      new RNBackgroundGeolocation()
     ));
   }
 }
