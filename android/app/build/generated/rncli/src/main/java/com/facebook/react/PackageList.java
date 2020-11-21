@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
 // react-native-background-geolocation
 import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
+// react-native-maps
+import com.airbnb.android.react.maps.MapsPackage;
 
 public class PackageList {
   private Application application;
@@ -61,7 +63,8 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new RNBackgroundFetchPackage(),
-      new RNBackgroundGeolocation()
+      new RNBackgroundGeolocation(),
+      new MapsPackage()
     ));
   }
 }

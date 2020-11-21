@@ -1,12 +1,11 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-import React from 'react'
-import { Component } from 'react';
+import React, { Component } from 'react';
+import MapView, { Marker, Circle } from 'react-native-maps';
+//import Location_icon from 'react-native-vector-icons/MaterialCommunityIcons';
+// import Location_icon from 'react-native-vector-icons/FontAwesome5';
+// import firestore from '@react-native-firebase/firestore';
+import BackgroundGeolocation, { createGeofenceMarker, onGeofencesChange } from "react-native-background-geolocation";
+
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,191 +15,147 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
-// const App: () => React$Node = () => {
-//   return (
-//     <>
-//       <StatusBar barStyle="dark-content" />
-//       <SafeAreaView>
-//         <ScrollView
-//           contentInsetAdjustmentBehavior="automatic"
-//           style={styles.scrollView}>
-//           <Header />
-//           {global.HermesInternal == null ? null : (
-//             <View style={styles.engine}>
-//               <Text style={styles.footer}>Engine: Hermes</Text>
-//             </View>
-//           )}
-//           <View style={styles.body}>
-//             <View style={styles.sectionContainer}>
-//               <Text style={styles.sectionTitle}>Step One</Text>
-//               <Text style={styles.sectionDescription}>
-//                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-//                 screen and then come back to see your edits.
-//               </Text>
-//             </View>
-//             <View style={styles.sectionContainer}>
-//               <Text style={styles.sectionTitle}>See Your Changes</Text>
-//               <Text style={styles.sectionDescription}>
-//                 <ReloadInstructions />
-//               </Text>
-//             </View>
-//             <View style={styles.sectionContainer}>
-//               <Text style={styles.sectionTitle}>Debug</Text>
-//               <Text style={styles.sectionDescription}>
-//                 <DebugInstructions />
-//               </Text>
-//             </View>
-//             <View style={styles.sectionContainer}>
-//               <Text style={styles.sectionTitle}>Learn More</Text>
-//               <Text style={styles.sectionDescription}>
-//                 Read the docs to discover what to do next:
-//               </Text>
-//             </View>
-//             <LearnMoreLinks />
-//           </View>
-//         </ScrollView>
-//       </SafeAreaView>
-//     </>
-//   );
-// };
+class Map extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      latitude: 24.8618,
+      longitude: 67.0735,
+      showsUserLocation: true,
+      error: null,
+      zones: [],
+      // lat: 24.8618,
+      // lng: 67.0735, 
+    }
+  }
 
-// const styles = StyleSheet.create({
-//   scrollView: {
-//     backgroundColor: Colors.lighter,
-//   },
-//   engine: {
-//     position: 'absolute',
-//     right: 0,
-//   },
-//   body: {
-//     backgroundColor: Colors.white,
-//   },
-//   sectionContainer: {
-//     marginTop: 32,
-//     paddingHorizontal: 24,
-//   },
-//   sectionTitle: {
-//     fontSize: 24,
-//     fontWeight: '600',
-//     color: Colors.black,
-//   },
-//   sectionDescription: {
-//     marginTop: 8,
-//     fontSize: 18,
-//     fontWeight: '400',
-//     color: Colors.dark,
-//   },
-//   highlight: {
-//     fontWeight: '700',
-//   },
-//   footer: {
-//     color: Colors.dark,
-//     fontSize: 12,
-//     fontWeight: '600',
-//     padding: 4,
-//     paddingRight: 12,
-//     textAlign: 'right',
-//   },
-// });
 
-// export default App;
+  componentDidMount = () => {
+    this.getUser();
+    this.onResume();
+    // this.addGeofence();
+    this.createCircle();
+  }
 
-// Import BackgroundGeolocation + any optional interfaces
-import BackgroundGeolocation from "react-native-background-geolocation";
+  getUser = async () => {
+    let location = await BackgroundGeolocation
+      .getCurrentPosition({
+        timeout: 30,          // 30 second timeout to fetch location
+        maximumAge: 5000,     // Accept the last-known-location if not older than 5000 ms.
+        desiredAccuracy: 10,  // Try to fetch a location with an accuracy of `10` meters.
+        samples: 3,           // How many location samples to attempt.
+        // extras: {             // Custom meta-data.
+        //   "route_id": 123
+        // }
+      });
 
-export default class App extends Component {
-  componentWillMount() {
-    ////
-    // 1.  Wire up event-listeners
-    //
+    console.log("latitude= ", location.coords.latitude);
+    console.log("longitude= ", location.coords.longitude);
+  }
 
-    // This handler fires whenever bgGeo receives a location update.
-    BackgroundGeolocation.onLocation(this.onLocation, this.onError);
+  onResume() {
+    // Start watching position while app in foreground.
+    BackgroundGeolocation.watchPosition((location) => {
+      console.log("[watchPosition] -", location);
+    }, (errorCode) => {
+      console.log("[watchPosition] ERROR -", errorCode);
+    }, {
+      interval: 60000
+    })
+  }
 
-    // This handler fires when movement states changes (stationary->moving; moving->stationary)
-    BackgroundGeolocation.onMotionChange(this.onMotionChange);
+  // addGeofence() {
+  //   BackgroundGeolocation.addGeofence({
+  //     identifier: "Home",
+  //     radius: 900,
+  //     latitude: this.state.latitude,
+  //     longitude: this.state.longitude,
+  //     notifyOnEntry: true,
+  //     notifyOnExit: true,
+  //   })
+  //     .then((success) => {
+  //       console.log("[addGeofence] success");
 
-    // This event fires when a change in motion activity is detected
-    BackgroundGeolocation.onActivityChange(this.onActivityChange);
+  //     })
+  //     .catch((error) => {
+  //       console.log("[addGeofence] FAILURE: ", error);
+  //     });
+  // }
 
-    // This event fires when the user toggles location-services authorization
-    BackgroundGeolocation.onProviderChange(this.onProviderChange);
+  createCircle() {
+    // Listen to geofence events
+    BackgroundGeolocation.onGeofence(geofence => {
+      console.log("[geofence] ", geofence);
+      if (geofence.identifier == "DANGER_ZONE") {
+        if (geofence.action == "ENTER") {
+          // Entering the danger-zone, we want to aggressively track location.
+          BackgroundGeolocation.start();
+        } else if (geofence.action == "EXIT") {
+          // Exiting the danger-zone, we resume geofences-only tracking.
+          BackgroundGeolocation.startGeofences();
+        }
+      }
+    })
 
-    ////
-    // 2.  Execute #ready method (required)
-    //
+    // Add a geofence.
+    BackgroundGeolocation.addGeofence({
+      identifier: "DANGER_ZONE",
+      radius: 1000,
+      latitude: this.state.lat,
+      longitude:  this.state.lng,
+      notifyOnEntry: true,
+      notifyOnExit: true,
+    })
+
+    // Ready the plugin.
     BackgroundGeolocation.ready({
-      reset: true,  // <-- true to always apply the supplied config
-      distanceFilter: 10
-    }, (state) => {
-      console.log('- BackgroundGeolocation is ready: ', state);
-    });
-    // BackgroundGeolocation.ready({
-    //   // Geolocation Config
-    //   desiredAccuracy: BackgroundGeolocation.DESIRED_ACCURACY_HIGH,
-    //   distanceFilter: 10,
-    //   // Activity Recognition
-    //   stopTimeout: 1,
-    //   // Application config
-    //   debug: true, // <-- enable this hear sounds for background-geolocation life-cycle.
-    //   logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE,
-    //   stopOnTerminate: false,   // <-- Allow the background-service to continue tracking when user closes the app.
-    //   startOnBoot: true,        // <-- Auto start tracking when device is powered-up.
-    //   // HTTP / SQLite config
-    //   url: 'http://yourserver.com/locations',
-    //   batchSync: false,       // <-- [Default: false] Set true to sync locations to server in a single HTTP request.
-    //   autoSync: true,         // <-- [Default: true] Set true to sync each location to server as it arrives.
-    //   headers: {              // <-- Optional HTTP headers
-    //     "X-FOO": "bar"
-    //   },
-    //   params: {               // <-- Optional HTTP params
-    //     "auth_token": "maybe_your_server_authenticates_via_token_YES?"
-    //   }
-    // }, (state) => {
-    //   console.log("- BackgroundGeolocation is configured and ready: ", state.enabled);
-
-    //   if (!state.enabled) {
-    //     ////
-    //     // 3. Start tracking!
-    //     //
-    //     BackgroundGeolocation.start(function() {
-    //       console.log("- Start success");
-    //     });
-    //   }
-    // });
+      desiredAccuracy: BackgroundGeolocation.DESIRED_ACCURACY_HIGH,
+      distanceFilter: 10,
+      url: "http://your.server.com/locations",
+      autoSync: true
+    }, state => {
+      BackgroundGeolocation.startGeofences();
+    })
   }
 
-  // You must remove listeners when your component unmounts
-  componentWillUnmount() {
-    BackgroundGeolocation.removeListeners();
-  }
-  onLocation(location) {
-    console.log('[location] -', location);
-  }
-  onError(error) {
-    console.warn('[location] ERROR -', error);
-  }
-  onActivityChange(event) {
-    console.log('[activitychange] -', event);  // eg: 'on_foot', 'still', 'in_vehicle'
-  }
-  onProviderChange(provider) {
-    console.log('[providerchange] -', provider.enabled, provider.status);
-  }
-  onMotionChange(event) {
-    console.log('[motionchange] -', event.isMoving, event.location);
-  }
+
 
   render() {
     return (
-      <Text>WOW</Text>
-    )
+      <View style={styles.container}>
+
+        {this.state.latitude && this.state.longitude &&
+          <MapView style={styles.map}
+            showsUserLocation={this.state.showsUserLocation}
+            showsMyLocationButton={true}
+            initialRegion={{
+              latitude: this.state.latitude,
+              longitude: this.state.longitude,
+              latitudeDelta: 0.02,
+              longitudeDelta: 0.02,
+            }}
+          >
+          </MapView>}
+      </View>
+
+    );
   }
 }
+
+const styles = StyleSheet.create
+  ({
+    container:
+    {
+      flex: 1
+    },
+
+    map:
+    {
+      position: 'absolute',
+      height: '100%',
+      width: '100%'
+    }
+  })
+
+export default Map
